@@ -1,0 +1,1 @@
+SELECT cron.unschedule('good-news-monday-7am-ist');

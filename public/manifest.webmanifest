@@ -1,0 +1,14 @@
+{
+  "name": "Nudged",
+  "short_name": "Nudged",
+  "description": "Stay on course, gently.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icons/ChatGPT_Image_Jul_5,_2026,_11_50_00_AM.png", "sizes": "any", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/ChatGPT_Image_Jul_5,_2026,_11_50_00_AM.png", "sizes": "any", "type": "image/png", "purpose": "maskable" }
+  ]
+}

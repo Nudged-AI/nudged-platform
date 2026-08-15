@@ -1,0 +1,1 @@
+ALTER TABLE parked_items ADD COLUMN IF NOT EXISTS milestone_tags text[] DEFAULT ARRAY['General'];

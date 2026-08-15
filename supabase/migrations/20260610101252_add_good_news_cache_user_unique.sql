@@ -1,0 +1,1 @@
+ALTER TABLE good_news_cache ADD CONSTRAINT good_news_cache_user_id_unique UNIQUE (user_id);
