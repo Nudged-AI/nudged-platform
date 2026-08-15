@@ -27,3 +27,5 @@ backup-*.zip
 
 electron-app/dist-electron
 electron-app/release
+
+graphify-out/cache
