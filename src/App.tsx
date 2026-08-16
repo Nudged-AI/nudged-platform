@@ -21,7 +21,7 @@ import MarketplacePage from './pages/MarketplacePage';
 import AppSelection from './components/AppSelection';
 import type { AppMode } from './components/AppSelection';
 
-type AppState = 'loading' | 'login' | 'app' | 'reset_password';
+type AppState = 'loading' | 'login' | 'app' | 'reset_password' | 'app_selection';
 
 async function ensureDefaultThreads(userId: string) {
   const { data: existing } = await supabase.from('goals').select('id,is_general,is_all_thread').eq('user_id', userId);
